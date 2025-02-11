@@ -1,3 +1,3 @@
 # Repositorio No ofical de stripe.
-# Binding para .NET MAUI
+# Binding para .NET MAUI ANDROID
 # Stripe
