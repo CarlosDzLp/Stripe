@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.Hcaptcha", "..\Bindi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.3DS2", "..\Binding\Stripe.3DS2\Stripe.3DS2.csproj", "{A9CE70AB-EFE0-4A02-8661-1162B64E80EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.Core", "..\Binding\Stripe.Core\Stripe.Core.csproj", "{3BA340AD-910F-4979-A2D5-29C5C65239BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{A9CE70AB-EFE0-4A02-8661-1162B64E80EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CE70AB-EFE0-4A02-8661-1162B64E80EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CE70AB-EFE0-4A02-8661-1162B64E80EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA340AD-910F-4979-A2D5-29C5C65239BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA340AD-910F-4979-A2D5-29C5C65239BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA340AD-910F-4979-A2D5-29C5C65239BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA340AD-910F-4979-A2D5-29C5C65239BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{D0A43926-9634-43DF-9DC6-303CA353500C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F05490A7-A10E-419E-A098-E5EFC3044EAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{A9CE70AB-EFE0-4A02-8661-1162B64E80EC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3BA340AD-910F-4979-A2D5-29C5C65239BE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CA274FD-69E8-4BA7-9E95-03EA537603FC}
