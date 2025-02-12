@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStripe", "DemoStripe\DemoStripe\DemoStripe.csproj", "{F1F80D3D-A662-4E89-B076-5078294ADBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStripe.Droid", "DemoStripe\DemoStripe.Droid\DemoStripe.Droid.csproj", "{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bindings", "Bindings", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.Attestation", "..\Binding\Stripe.Attestation\Stripe.Attestation.csproj", "{D0A43926-9634-43DF-9DC6-303CA353500C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.Hcaptcha", "..\Binding\Stripe.Hcaptcha\Stripe.Hcaptcha.csproj", "{F05490A7-A10E-419E-A098-E5EFC3044EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F80D3D-A662-4E89-B076-5078294ADBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F80D3D-A662-4E89-B076-5078294ADBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F80D3D-A662-4E89-B076-5078294ADBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F80D3D-A662-4E89-B076-5078294ADBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B23C5A-5AF0-4BDA-8E35-10F0449F6B1A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D0A43926-9634-43DF-9DC6-303CA353500C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A43926-9634-43DF-9DC6-303CA353500C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A43926-9634-43DF-9DC6-303CA353500C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A43926-9634-43DF-9DC6-303CA353500C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05490A7-A10E-419E-A098-E5EFC3044EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05490A7-A10E-419E-A098-E5EFC3044EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05490A7-A10E-419E-A098-E5EFC3044EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05490A7-A10E-419E-A098-E5EFC3044EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A43926-9634-43DF-9DC6-303CA353500C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F05490A7-A10E-419E-A098-E5EFC3044EAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA274FD-69E8-4BA7-9E95-03EA537603FC}
+	EndGlobalSection
+EndGlobal
